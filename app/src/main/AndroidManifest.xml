@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.relapolires.ayaap">
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name="com.relapolires.ayaap.Tools_Ads"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppThemeSplash"
+        android:usesCleartextTraffic="true"
+        >
+        <activity
+            android:name="com.relapolires.ayaap.Activityoption"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMain">
+
+        </activity>
+        <activity
+            android:name="com.relapolires.ayaap.Activitytime"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeChat" />
+        <activity
+            android:name="com.relapolires.ayaap.Activityvideowaiting"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeVideo" />
+        <activity
+            android:name="com.relapolires.ayaap.ActivityChat"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeChat" />
+        <activity
+            android:name="com.relapolires.ayaap.Activityacceptingcaller"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeChat" />
+        <activity
+            android:name="com.relapolires.ayaap.ActivityContacting"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeChat" />
+        <activity
+            android:name="com.relapolires.ayaap.Activityacceptvideo"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeVideo" />
+
+        <activity
+            android:name="com.relapolires.ayaap.Activitysplashing"
+            android:theme="@style/AppThemeSplash"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.relapolires.ayaap.Activitycallerwaiting"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeCalling" />
+        <activity
+            android:name="com.relapolires.ayaap.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" /> <!-- Activity required to show ad overlays. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" /> <!-- Activity required to show Facebook Ads. -->
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" /> <!-- Provider Camera -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

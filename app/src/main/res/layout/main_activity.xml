@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F8F7FC"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <include layout="@layout/content_main" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="#F1F1F1"-->
+<!--    android:clipToPadding="false">-->
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="fill_parent"-->
+<!--        android:layout_above="@+id/adView"-->
+<!--        android:layout_marginBottom="@dimen/_3sdp"-->
+<!--        android:orientation="vertical">-->
+
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="0.7">-->
+
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/btnRelative"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:src="@drawable/backgroundhome"/>-->
+
+<!--            </RelativeLayout>-->
+
+
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/relative2"-->
+<!--                android:layout_below="@+id/relativeTop"-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:visibility="visible">-->
+
+<!--                <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_100sdp"-->
+<!--                    android:src="@drawable/img1"-->
+<!--                    android:elevation="@dimen/_5sdp"-->
+<!--                    app:civ_border_width="3dp"-->
+<!--                    app:civ_border_color="@android:color/white"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="@string/title_home"-->
+<!--                    android:textColor="@android:color/white"-->
+<!--                    android:layout_marginTop="@dimen/_5sdp"-->
+<!--                    android:textStyle="normal"-->
+<!--                    android:textSize="@dimen/_15sdp" />-->
+<!--            </LinearLayout>-->
+
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/relativeTop20"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="#FF7474"-->
+<!--                android:visibility="visible">-->
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="@dimen/_10sdp"-->
+<!--                    android:layout_toStartOf="@+id/rate"-->
+<!--                    android:layout_toEndOf="@+id/setting"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="@string/app_name"-->
+<!--                    android:textColor="@android:color/white"-->
+<!--                    android:textSize="@dimen/_18sdp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/rate"-->
+<!--                    android:layout_width="@dimen/_40sdp"-->
+<!--                    android:layout_height="@dimen/_40sdp"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:padding="@dimen/_8sdp"-->
+<!--                    android:src="@drawable/stars"-->
+<!--                    tools:ignore="ContentDescription,RtlHardcoded,UnusedAttribute" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/setting"-->
+<!--                    android:layout_width="@dimen/_40sdp"-->
+<!--                    android:layout_height="@dimen/_40sdp"-->
+<!--                    android:padding="@dimen/_8sdp"-->
+<!--                    android:src="@drawable/cogwheel"-->
+<!--                    tools:ignore="ContentDescription,RtlHardcoded,UnusedAttribute" />-->
+
+<!--            </RelativeLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:visibility="gone"-->
+<!--                android:layout_alignParentBottom="true">-->
+
+<!--                <View-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_height="@dimen/_5sdp"-->
+<!--                    android:background="@color/color_2_btn1" />-->
+
+<!--                <View-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_height="@dimen/_5sdp"-->
+<!--                    android:background="@color/color_2_btn2" />-->
+<!--                <View-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_height="@dimen/_5sdp"-->
+<!--                    android:background="@color/color_2_btn3" />-->
+
+<!--                <View-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_height="@dimen/_5sdp"-->
+<!--                    android:background="@color/color_2_btn4" />-->
+
+<!--                <View-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_height="@dimen/_5sdp"-->
+<!--                    android:background="@color/color_2_btn5" />-->
+
+<!--                <View-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_height="@dimen/_5sdp"-->
+<!--                    android:background="@color/color_2_btn6" />-->
+
+<!--                <View-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_height="@dimen/_5sdp"-->
+<!--                    android:background="@color/color_2_btn7" />-->
+
+
+
+
+
+
+
+<!--            </LinearLayout>-->
+
+
+<!--        </RelativeLayout>-->
+
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="0.9">-->
+
+
+<!--            <ScrollView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                tools:ignore="UselessParent">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:layout_margin="@dimen/_4sdp"-->
+<!--                    android:visibility="visible"-->
+<!--                    tools:ignore="UselessParent">-->
+
+
+
+
+
+
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:id="@+id/video"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:foreground="?android:attr/selectableItemBackground"-->
+<!--                        app:cardCornerRadius="@dimen/_4sdp"-->
+<!--                        app:cardElevation="@dimen/_2sdp"-->
+<!--                        app:cardPreventCornerOverlap="false"-->
+<!--                        app:cardUseCompatPadding="true">-->
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="@dimen/_55sdp"-->
+<!--                            android:background="@color/color_1_btn3">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_toLeftOf="@+id/ic_row3"-->
+<!--                                android:orientation="horizontal">-->
+
+<!--                                <RelativeLayout-->
+<!--                                    android:layout_width="@dimen/_55sdp"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:gravity="center">-->
+
+<!--                                    <ImageView-->
+<!--                                        android:layout_width="@dimen/_40sdp"-->
+<!--                                        android:layout_height="@dimen/_40sdp"-->
+<!--                                        android:src="@drawable/ic_video" />-->
+<!--                                </RelativeLayout>-->
+
+<!--                                <LinearLayout-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_gravity="center"-->
+<!--                                    android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                                    android:orientation="vertical">-->
+
+<!--                                    <TextView-->
+<!--                                        android:layout_width="wrap_content"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:gravity="center"-->
+<!--                                        android:text="@string/btn3name"-->
+<!--                                        android:textColor="@color/sender_text"-->
+<!--                                        android:textSize="@dimen/_18sdp"-->
+<!--                                        android:textStyle="bold" />-->
+
+<!--                                    <TextView-->
+<!--                                        android:layout_width="wrap_content"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:gravity="center"-->
+<!--                                        android:text="@string/subname3"-->
+<!--                                        android:textColor="@color/sender_text"-->
+<!--                                        android:textSize="@dimen/_11sdp"-->
+<!--                                        android:textStyle="normal" />-->
+
+
+<!--                                </LinearLayout>-->
+
+<!--                            </LinearLayout>-->
+
+<!--                            <LinearLayout-->
+<!--                                android:id="@+id/ic_row3"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_alignParentRight="true"-->
+<!--                                android:gravity="center"-->
+<!--                                android:orientation="horizontal">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="@dimen/_16sdp"-->
+<!--                                    android:layout_height="@dimen/_16sdp"-->
+<!--                                    android:layout_marginRight="@dimen/_15sdp"-->
+<!--                                    android:background="@drawable/row" />-->
+
+
+<!--                            </LinearLayout>-->
+
+
+<!--                        </RelativeLayout>-->
+
+<!--                    </androidx.cardview.widget.CardView>-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:id="@+id/calling"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:foreground="?android:attr/selectableItemBackground"-->
+<!--                        app:cardCornerRadius="@dimen/_4sdp"-->
+<!--                        app:cardElevation="@dimen/_2sdp"-->
+<!--                        app:cardPreventCornerOverlap="false"-->
+<!--                        app:cardUseCompatPadding="true">-->
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="@dimen/_55sdp"-->
+<!--                            android:background="@color/bar_contact">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_toLeftOf="@+id/ic_row1"-->
+<!--                                android:orientation="horizontal">-->
+
+<!--                                <RelativeLayout-->
+<!--                                    android:layout_width="@dimen/_55sdp"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:gravity="center">-->
+
+<!--                                    <ImageView-->
+<!--                                        android:layout_width="@dimen/_40sdp"-->
+<!--                                        android:layout_height="@dimen/_40sdp"-->
+<!--                                        android:src="@drawable/ic_call" />-->
+<!--                                </RelativeLayout>-->
+
+<!--                                <LinearLayout-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_gravity="center"-->
+<!--                                    android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                                    android:orientation="vertical">-->
+
+<!--                                    <TextView-->
+<!--                                        android:layout_width="wrap_content"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:gravity="center"-->
+<!--                                        android:text="@string/calling"-->
+<!--                                        android:textColor="#FFFFFF"-->
+<!--                                        android:textSize="@dimen/_18sdp"-->
+<!--                                        android:textStyle="bold" />-->
+
+<!--                                    <TextView-->
+<!--                                        android:layout_width="wrap_content"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:gravity="center"-->
+<!--                                        android:text="@string/subname1"-->
+<!--                                        android:textColor="#FFFFFF"-->
+<!--                                        android:textSize="@dimen/_11sdp"-->
+<!--                                        android:textStyle="normal" />-->
+
+
+<!--                                </LinearLayout>-->
+
+<!--                            </LinearLayout>-->
+
+<!--                            <LinearLayout-->
+<!--                                android:id="@+id/ic_row1"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_alignParentRight="true"-->
+<!--                                android:gravity="center"-->
+<!--                                android:orientation="horizontal">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="@dimen/_16sdp"-->
+<!--                                    android:layout_height="@dimen/_16sdp"-->
+<!--                                    android:layout_marginRight="@dimen/_15sdp"-->
+<!--                                    android:background="@drawable/row" />-->
+
+
+<!--                            </LinearLayout>-->
+
+
+<!--                        </RelativeLayout>-->
+
+<!--                    </androidx.cardview.widget.CardView>-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:id="@+id/chat"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:foreground="?android:attr/selectableItemBackground"-->
+<!--                        app:cardCornerRadius="@dimen/_4sdp"-->
+<!--                        app:cardElevation="@dimen/_2sdp"-->
+<!--                        app:cardPreventCornerOverlap="false"-->
+<!--                        app:cardUseCompatPadding="true">-->
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="@dimen/_55sdp"-->
+<!--                            android:background="@color/colorPrimaryDark">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_toLeftOf="@+id/ic_row2"-->
+<!--                                android:orientation="horizontal">-->
+
+<!--                                <RelativeLayout-->
+<!--                                    android:layout_width="@dimen/_55sdp"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:gravity="center">-->
+
+<!--                                    <ImageView-->
+<!--                                        android:layout_width="@dimen/_40sdp"-->
+<!--                                        android:layout_height="@dimen/_40sdp"-->
+<!--                                        android:src="@drawable/ic_chat" />-->
+<!--                                </RelativeLayout>-->
+
+<!--                                <LinearLayout-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_gravity="center"-->
+<!--                                    android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                                    android:orientation="vertical">-->
+
+<!--                                    <TextView-->
+<!--                                        android:layout_width="wrap_content"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:gravity="center"-->
+<!--                                        android:text="@string/btn2name"-->
+<!--                                        android:textColor="#FFFFFF"-->
+<!--                                        android:textSize="@dimen/_18sdp"-->
+<!--                                        android:textStyle="bold" />-->
+
+<!--                                    <TextView-->
+<!--                                        android:layout_width="wrap_content"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:gravity="center"-->
+<!--                                        android:text="@string/subname2"-->
+<!--                                        android:textColor="#FFFFFF"-->
+<!--                                        android:textSize="@dimen/_11sdp"-->
+<!--                                        android:textStyle="normal" />-->
+
+
+<!--                                </LinearLayout>-->
+
+<!--                            </LinearLayout>-->
+
+<!--                            <LinearLayout-->
+<!--                                android:id="@+id/ic_row2"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_alignParentRight="true"-->
+<!--                                android:gravity="center"-->
+<!--                                android:orientation="horizontal">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="@dimen/_16sdp"-->
+<!--                                    android:layout_height="@dimen/_16sdp"-->
+<!--                                    android:layout_marginRight="@dimen/_15sdp"-->
+<!--                                    android:background="@drawable/row" />-->
+
+<!--                            </LinearLayout>-->
+
+
+<!--                        </RelativeLayout>-->
+
+<!--                    </androidx.cardview.widget.CardView>-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/contact"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:foreground="?android:attr/selectableItemBackground"-->
+<!--                    app:cardCornerRadius="@dimen/_4sdp"-->
+<!--                    app:cardElevation="@dimen/_2sdp"-->
+<!--                    app:cardPreventCornerOverlap="false"-->
+<!--                    app:cardUseCompatPadding="true">-->
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="@dimen/_55sdp"-->
+<!--                            android:background="@color/color_1_btn8">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_toLeftOf="@+id/ic_row4"-->
+<!--                                android:orientation="horizontal">-->
+
+<!--                                <RelativeLayout-->
+<!--                                    android:layout_width="@dimen/_55sdp"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:gravity="center">-->
+
+<!--                                    <ImageView-->
+<!--                                        android:layout_width="@dimen/_40sdp"-->
+<!--                                        android:layout_height="@dimen/_40sdp"-->
+<!--                                        android:src="@drawable/ic_contact" />-->
+<!--                                </RelativeLayout>-->
+
+<!--                                <LinearLayout-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_gravity="center"-->
+<!--                                    android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                                    android:orientation="vertical">-->
+
+<!--                                    <TextView-->
+<!--                                        android:layout_width="wrap_content"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:gravity="center"-->
+<!--                                        android:text="@string/btn4name"-->
+<!--                                        android:textColor="#FFFFFF"-->
+<!--                                        android:textSize="@dimen/_18sdp"-->
+<!--                                        android:textStyle="bold" />-->
+
+<!--                                    <TextView-->
+<!--                                        android:layout_width="wrap_content"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:gravity="center"-->
+<!--                                        android:text="@string/subname4"-->
+<!--                                        android:textColor="#FFFFFF"-->
+<!--                                        android:textSize="@dimen/_11sdp"-->
+<!--                                        android:textStyle="normal" />-->
+
+
+<!--                                </LinearLayout>-->
+
+<!--                            </LinearLayout>-->
+
+<!--                            <LinearLayout-->
+<!--                                android:id="@+id/ic_row4"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_alignParentRight="true"-->
+<!--                                android:gravity="center"-->
+<!--                                android:orientation="horizontal">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="@dimen/_16sdp"-->
+<!--                                    android:layout_height="@dimen/_16sdp"-->
+<!--                                    android:layout_marginRight="@dimen/_15sdp"-->
+<!--                                    android:background="@drawable/row" />-->
+
+
+<!--                            </LinearLayout>-->
+
+
+<!--                        </RelativeLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+
+<!--                      <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/random"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:foreground="?android:attr/selectableItemBackground"-->
+<!--                    app:cardCornerRadius="@dimen/_4sdp"-->
+<!--                    app:cardElevation="@dimen/_2sdp"-->
+<!--                    app:cardPreventCornerOverlap="false"-->
+<!--                    app:cardUseCompatPadding="true">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="@dimen/_55sdp"-->
+<!--                        android:background="@color/color_2_btn8">-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_toLeftOf="@+id/ic_row10"-->
+<!--                            android:orientation="horizontal">-->
+
+<!--                            <RelativeLayout-->
+<!--                                android:layout_width="@dimen/_55sdp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="@dimen/_40sdp"-->
+<!--                                    android:layout_height="@dimen/_40sdp"-->
+<!--                                    android:layout_centerInParent="true"-->
+<!--                                    android:src="@drawable/ic_counter" />-->
+
+<!--                                <RelativeLayout-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent">-->
+
+<!--                                </RelativeLayout>-->
+
+<!--                            </RelativeLayout>-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                                android:orientation="vertical">-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:text="@string/btn8name"-->
+<!--                                    android:textColor="#FFFFFF"-->
+<!--                                    android:textSize="@dimen/_18sdp"-->
+<!--                                    android:textStyle="bold" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:text="@string/subname8"-->
+<!--                                    android:textColor="#FFFFFF"-->
+<!--                                    android:textSize="@dimen/_11sdp"-->
+<!--                                    android:textStyle="normal" />-->
+
+
+<!--                            </LinearLayout>-->
+
+<!--                        </LinearLayout>-->
+
+<!--                        <LinearLayout-->
+<!--                            android:id="@+id/ic_row10"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:gravity="center"-->
+<!--                            android:orientation="horizontal">-->
+
+<!--                            <ImageView-->
+<!--                                android:id="@+id/counter_row"-->
+<!--                                android:layout_width="@dimen/_16sdp"-->
+<!--                                android:layout_height="@dimen/_16sdp"-->
+<!--                                android:layout_marginRight="@dimen/_15sdp"-->
+<!--                                android:background="@drawable/row" />-->
+
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+
+
+
+<!--                <FrameLayout-->
+<!--                    android:id="@+id/frame_ad"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="@dimen/_3sdp">-->
+<!--                </FrameLayout>-->
+
+
+
+<!--                  <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/shareit"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:foreground="?android:attr/selectableItemBackground"-->
+<!--                    app:cardCornerRadius="@dimen/_4sdp"-->
+<!--                    app:cardElevation="@dimen/_2sdp"-->
+<!--                    app:cardPreventCornerOverlap="false"-->
+<!--                    app:cardUseCompatPadding="true">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="@dimen/_55sdp"-->
+<!--                        android:background="@color/purple_700">-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_toLeftOf="@+id/ic_row6"-->
+<!--                            android:orientation="horizontal">-->
+
+<!--                            <RelativeLayout-->
+<!--                                android:layout_width="@dimen/_55sdp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="@dimen/_40sdp"-->
+<!--                                    android:layout_height="@dimen/_40sdp"-->
+<!--                                    android:src="@drawable/ic_shareit" />-->
+<!--                            </RelativeLayout>-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                                android:orientation="vertical">-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:text="@string/btn6name"-->
+<!--                                    android:textColor="#FFFFFF"-->
+<!--                                    android:textSize="@dimen/_18sdp"-->
+<!--                                    android:textStyle="bold" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:text="@string/subname6"-->
+<!--                                    android:textColor="#FFFFFF"-->
+<!--                                    android:textSize="@dimen/_11sdp"-->
+<!--                                    android:textStyle="normal" />-->
+
+
+<!--                            </LinearLayout>-->
+
+<!--                        </LinearLayout>-->
+
+<!--                        <LinearLayout-->
+<!--                            android:id="@+id/ic_row6"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:gravity="center"-->
+<!--                            android:orientation="horizontal">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_16sdp"-->
+<!--                                android:layout_height="@dimen/_16sdp"-->
+<!--                                android:layout_marginRight="@dimen/_15sdp"-->
+<!--                                android:background="@drawable/row" />-->
+
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                   <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/rateus"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:foreground="?android:attr/selectableItemBackground"-->
+<!--                    app:cardCornerRadius="@dimen/_4sdp"-->
+<!--                    app:cardElevation="@dimen/_2sdp"-->
+<!--                    app:cardPreventCornerOverlap="false"-->
+<!--                    app:cardUseCompatPadding="true">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="@dimen/_55sdp"-->
+<!--                        android:background="@color/purple_700">-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_toLeftOf="@+id/ic_row7"-->
+<!--                            android:orientation="horizontal">-->
+
+<!--                            <RelativeLayout-->
+<!--                                android:layout_width="@dimen/_55sdp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="@dimen/_40sdp"-->
+<!--                                    android:layout_height="@dimen/_40sdp"-->
+<!--                                    android:src="@drawable/ic_rateus" />-->
+<!--                            </RelativeLayout>-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                                android:orientation="vertical">-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:text="@string/btn7name"-->
+<!--                                    android:textColor="#FFFFFF"-->
+<!--                                    android:textSize="@dimen/_18sdp"-->
+<!--                                    android:textStyle="bold" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:text="@string/subname7"-->
+<!--                                    android:textColor="#FFFFFF"-->
+<!--                                    android:textSize="@dimen/_11sdp"-->
+<!--                                    android:textStyle="normal" />-->
+
+
+<!--                            </LinearLayout>-->
+
+<!--                        </LinearLayout>-->
+
+<!--                        <LinearLayout-->
+<!--                            android:id="@+id/ic_row7"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:gravity="center"-->
+<!--                            android:orientation="horizontal">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_16sdp"-->
+<!--                                android:layout_height="@dimen/_16sdp"-->
+<!--                                android:layout_marginRight="@dimen/_15sdp"-->
+<!--                                android:background="@drawable/row" />-->
+
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/more"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginBottom="@dimen/_50sdp"-->
+<!--                    android:foreground="?android:attr/selectableItemBackground"-->
+<!--                    app:cardCornerRadius="@dimen/_4sdp"-->
+<!--                    app:cardElevation="@dimen/_2sdp"-->
+<!--                    app:cardPreventCornerOverlap="false"-->
+<!--                    app:cardUseCompatPadding="true">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="@dimen/_55sdp"-->
+<!--                        android:background="@color/purple_700">-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_toLeftOf="@+id/ic_row5"-->
+<!--                            android:orientation="horizontal">-->
+
+<!--                            <RelativeLayout-->
+<!--                                android:layout_width="@dimen/_55sdp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="@dimen/_40sdp"-->
+<!--                                    android:layout_height="@dimen/_40sdp"-->
+<!--                                    android:src="@drawable/ic_more" />-->
+<!--                            </RelativeLayout>-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                                android:orientation="vertical">-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:text="@string/btn5name"-->
+<!--                                    android:textColor="#FFFFFF"-->
+<!--                                    android:textSize="@dimen/_18sdp"-->
+<!--                                    android:textStyle="bold" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:text="@string/subname5"-->
+<!--                                    android:textColor="#FFFFFF"-->
+<!--                                    android:textSize="@dimen/_11sdp"-->
+<!--                                    android:textStyle="normal" />-->
+
+
+<!--                            </LinearLayout>-->
+
+<!--                        </LinearLayout>-->
+
+<!--                        <LinearLayout-->
+<!--                            android:id="@+id/ic_row5"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:gravity="center"-->
+<!--                            android:orientation="horizontal">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_16sdp"-->
+<!--                                android:layout_height="@dimen/_16sdp"-->
+<!--                                android:layout_marginRight="@dimen/_15sdp"-->
+<!--                                android:background="@drawable/row" />-->
+
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--        </ScrollView>-->
+
+
+
+
+<!--    </RelativeLayout>-->
+
+
+<!--</LinearLayout>-->
+
+
+
+<!--<RelativeLayout-->
+<!--    android:id="@+id/adView"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_centerHorizontal="true"-->
+<!--    android:layout_alignParentBottom="true"-->
+<!--    tools:ignore="RtlHardcoded">-->
+<!--</RelativeLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--</RelativeLayout>-->
+
+
+

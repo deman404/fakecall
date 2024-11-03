@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@+id/color_group"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <FrameLayout
+        android:id="@+id/Frame1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg1"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="buttonClicked"
+            android:text="@string/sndmsg2"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg3"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg4"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg5"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg6"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg7"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg8"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg9"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg10"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg11"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg12"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg13"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Frame14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg14"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/Frame15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+        <Button
+            android:id="@+id/mesg15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sndmsg15"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cadr_send_msg" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_1sdp"
+        android:layout_marginBottom="0.0dip">
+
+        <ImageView
+            android:id="@+id/StartChatAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:src="@drawable/re_start" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Aayu and Pihu</string>
+    <string name="title_activity_actshowcall">actshowcall</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <!--15 ANSWER-->
+    <string name="recmsgtxt1">Hi ! Welcome to our chat &#128522;</string>
+    <string name="recmsgtxt2">We are good thank you &#128517;</string>
+    <string name="recmsgtxt3">We are Aayu and Pihu &#128522;</string>
+    <string name="recmsgtxt4">We are a youtuber and  Vlogger &#128586;</string>
+    <string name="recmsgtxt5">Nice to meet you too &#128522;</string>
+    <string name="recmsgtxt6">We are from Kota, Rajasthan </string>
+    <string name="recmsgtxt7">We love Pizza LOOL &#128523; &#128523; Yum! Yum! &#128514; &#128514; &#128514;</string>
+    <string name="recmsgtxt8">Let me think about a joke emmm &#128514; &#128514; &#128514; &#128514;</string>
+    <string name="recmsgtxt9">Ohh thank you &#128522;</string>
+    <string name="recmsgtxt10">Yes We Love It &#128525; Please Rate my App &#128525; &#128525; :
+        <u>"http://play.google.com/store/apps/details?id=com.relapolires.ayaap"</u></string>
+    <string name="recmsgtxt11">Really ? Ohh thank you so much &#128571; &#128571; &#128571; &#128571; &#128571;</string>
+    <string name="recmsgtxt12">My favorite cartoon is We Bare Bears &#128522; &#128522;</string>
+    <string name="recmsgtxt13">Yep Yep  &#128571; &#128571; of course </string>
+    <string name="recmsgtxt14">Yes, We are waiting you!!! &#128571; &#128571; &#128571; &#128571;</string>
+    <string name="recmsgtxt15">Thank You for this chat, It was really great to talk to you &#128522; &#128522; &#128522;</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+
+    <string name="title_home">Call Your Idol !!</string>
+
+
+    <string name="share_text">Are You Real Fan, Call Your idol Now!!!</string>
+
+
+
+    <!--Rate Dialog-->
+    <string name="text_rate">If You Like This App, Please Rate Your Hero Now !!!</string>
+    <string name="button_rate">Rate Us</string>
+
+
+
+
+    <string name="calling">CALLING</string>
+    <string name="subname1">call your hero now !</string>
+    <string name="btn2name">CHAT</string>
+    <string name="subname2">open chat and talk</string>
+    <string name="btn3name">VIDEO CALL</string>
+    <string name="subname3">calling video camera</string>
+    <string name="btn4name">CONTACT</string>
+    <string name="subname4">call and chat with your contact</string>
+    <string name="btn5name">MORE APPS</string>
+    <string name="subname5">discover our apps and enjoy</string>
+    <string name="btn6name">SHARE IT</string>
+    <string name="subname6">share and have fun with friends</string>
+    <string name="btn7name">RATE US</string>
+    <string name="subname7">rate your hero !</string>
+    <string name="btn8name">COUNTER CALL</string>
+    <string name="subname8">start call with counter time</string>
+
+
+
+    <string name="contact">Contact</string>
+    <string name="setting">Settings</string>
+
+
+
+    <string name="watch_vid_chat_title">UNLOCK CHAT</string>
+    <string name="watch_vid_chat_subTitle">watch ad to unlock chat !</string>
+
+    <string name="watch_vid_video_title">UNLOCK VIDEO CALL</string>
+    <string name="watch_vid_video_subTitle">watch ad to unlock video call !</string>
+
+
+
+    <string name="contact1">Aayu and Pihu </string>
+    <string name="contactnum1">+1267205057</string>
+
+    <string name="contact2">123 Go Challenge</string>
+    <string name="contactnum2">+1364235692</string>
+
+    <string name="contact3">Vlad A4</string>
+    <string name="contactnum3">+1665056231</string>
+
+    <string name="contact4">Mecontrote</string>
+    <string name="contactnum4">+1402375182</string>
+
+    <string name="contact5">Royalty Family</string>
+    <string name="contactnum5">+1632255269</string>
+
+    <string name="contact6">Vlad and Niki</string>
+    <string name="contactnum6">+1366415014</string>
+
+
+
+    <string name="accept_call">Accept</string>
+    <string name="decline_call">Decline</string>
+    <string name="incoming_call">Incoming Call</string>
+
+
+
+    <string name="btncount1">10 SEC</string>
+    <string name="btncount2">40 SEC</string>
+    <string name="btncount3">2 MIN</string>
+    <string name="btncount4">6 MIN</string>
+
+
+
+
+
+    <!--15 QUESTION-->
+    <string name="sndmsg1">Hey.. !</string>
+    <string name="sndmsg2">How are you &#128513; ?</string>
+    <string name="sndmsg3">Whats your name ? &#128513; &#128522;</string>
+    <string name="sndmsg4">What is your profession  &#128522; ?</string>
+    <string name="sndmsg5">Nice to meet you </string>
+    <string name="sndmsg6">Where are you from ?</string>
+    <string name="sndmsg7">What kind of food you like &#128523; &#128523; ?</string>
+    <string name="sndmsg8">Tell me a joke ?</string>
+    <string name="sndmsg9">I love Your Videos</string>
+    <string name="sndmsg10">Do you Like this Application ?</string>
+    <string name="sndmsg11">Im a big fan of you &#128519; &#128519; &#128519;</string>
+    <string name="sndmsg12">What is your favorite cartoon ??&#128584; &#128584;</string>
+    <string name="sndmsg13">I will call you now ? &#128522;</string>
+    <string name="sndmsg14">See you in the call</string>
+    <string name="sndmsg15">Have a good time</string>
+
+
+
+
+
+
+    <string name="Developer_name">relapolires</string>
+    <string name="Email">Fergeson985@gmail.com</string> <!--Remplace Email FeedbackHer -->
+    <string name="privacy_policy"> https://relapolires.blogspot.com/2021/12/privacy-policy.html</string>
+
+
+    <string name="consent_title">Personalize Your Ad Experience</string>
+    <string name="consent">I consent to disclosure of the advertising ID of my device to advertising companies to serve personalized ads.<font fgcolor ="#4097ff"><u>Learn more</u></font></string>
+    <string name="consent_byargeeing">By agreeing, you confirm that you are over the age of 16.</string>
+    <string name="consent_no"><u>NO, THANK YOU</u></string>
+    <string name="consent_yes">YES, I AGREE</string>
+    <string name="consent_seeads">I understand that I will still see ads, but not relevant to my interests.</string>
+
+</resources>

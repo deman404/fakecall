@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion1">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/de.hdodenhof.circleimageview.CircleImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion2">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion2">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt2"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion3">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg3"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion3">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt3"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion4">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg4"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion4">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt4"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion5">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg5"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion5">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt5"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion6">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg6"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion6">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt6"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion7">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg7"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion7">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt7"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion8">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg8"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion8">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt8"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion9">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg9"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion9">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt9"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion10">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg10"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion10">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt10"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion11">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg11"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion11">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt11"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion12">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg12"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion12">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt12"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion13">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg13"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion13">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt13"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion14">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg14"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion14">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt14"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/mdiscussion15">
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_send_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/sndmsg15"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_you" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:id="@+id/fdiscussion15">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadr_recieve_msg"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:text="@string/recmsgtxt15"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:background="#F8F7FC"
+    android:layout_marginLeft="@dimen/_20sdp"
+    android:layout_marginEnd="@dimen/_20sdp"
+    android:layout_marginStart="@dimen/_20sdp"
+    android:layout_marginRight="@dimen/_20sdp"
+    tools:showIn="@layout/main_activity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center"
+            android:visibility="visible"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:src="@drawable/ic_baseline_dehaze_24"
+                    android:scaleType="fitXY"
+                    android:onClick="settings"
+                    android:layout_height="30dp"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:src="@drawable/rate_main"
+                    android:scaleType="fitXY"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:onClick="ratemeinMain"
+                    android:layout_height="30dp"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:src="@drawable/ic_baseline_attach_money_24"
+                    android:scaleType="fitXY"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:onClick="showReward"
+                    android:layout_height="30dp"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+                android:id="@+id/scrollme"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_height="match_parent">
+
+         <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/_20sdp"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:onClick="one"
+            android:id="@+id/one"
+            android:layout_marginTop="20sp"
+            android:elevation="1dp" android:orientation="horizontal"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/rectangle_white">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/circle"
+                android:padding="12dp"
+                android:id="@+id/musicimage"
+                android:src="@drawable/ic_baseline_video_call_24" />
+            <View
+                android:layout_width="6dp"
+                android:layout_margin="10sp"
+                android:background="@color/colorPrimary"
+                android:layout_height="80dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="3dp"
+                    android:id="@+id/music_name"
+                    android:text="Video Call  "
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="3dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="calling video camera"
+                    android:id="@+id/music_artist"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:onClick="one"
+            android:id="@+id/two"
+            android:layout_marginTop="20sp"
+            android:elevation="1dp" android:orientation="horizontal"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/rectangle_white">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/circle"
+                android:padding="12dp"
+                android:src="@drawable/ic_baseline_add_ic_call_24" />
+            <View
+                android:layout_width="6dp"
+                android:layout_margin="10sp"
+                android:background="@color/colorPrimary"
+                android:layout_height="80dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="3dp"
+                    android:text="Calling  "
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="3dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="call your hero now !"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:onClick="one"
+        android:id="@+id/three"
+        android:layout_marginTop="20sp"
+        android:elevation="1dp" android:orientation="horizontal"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/rectangle_white">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/circle"
+            android:padding="12dp"
+            android:src="@drawable/ic_baseline_chat_24" />
+        <View
+            android:layout_width="6dp"
+            android:layout_margin="10sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="80dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:text="Chatting  "
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="open chat and talk"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:onClick="one"
+        android:id="@+id/four"
+        android:layout_marginTop="20sp"
+        android:elevation="1dp" android:orientation="horizontal"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/rectangle_white">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/circle"
+            android:padding="12dp"
+            android:src="@drawable/ic_baseline_perm_contact_calendar_24" />
+        <View
+            android:layout_width="6dp"
+            android:layout_margin="10sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="80dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:text="Contact  "
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="call and chat with your contact"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/frame_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:onClick="one"
+        android:id="@+id/five"
+        android:layout_marginTop="20sp"
+        android:elevation="1dp" android:orientation="horizontal"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/rectangle_white">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/circle"
+            android:padding="12dp"
+            android:src="@drawable/ic_baseline_access_time_24" />
+        <View
+            android:layout_width="6dp"
+            android:layout_margin="10sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="80dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:text="Counter Call  "
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="start call with counter time"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:onClick="one"
+        android:id="@+id/six"
+        android:layout_marginTop="20sp"
+        android:elevation="1dp" android:orientation="horizontal"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/rectangle_white">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/circle"
+            android:padding="12dp"
+            android:src="@drawable/ic_baseline_share_24" />
+        <View
+            android:layout_width="6dp"
+            android:layout_margin="10sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="80dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:text="Share it"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="share and have fun with friends"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:onClick="one"
+        android:id="@+id/seven"
+        android:layout_marginTop="20sp"
+        android:elevation="1dp" android:orientation="horizontal"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/rectangle_white">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/circle"
+            android:padding="12dp"
+            android:src="@drawable/ic_baseline_star_rate_24" />
+        <View
+            android:layout_width="6dp"
+            android:layout_margin="10sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="80dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:text="Rate us"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="rate your hero !"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:onClick="one"
+        android:id="@+id/eight"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="20sp"
+        android:elevation="1dp" android:orientation="horizontal"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/rectangle_white">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/circle"
+            android:padding="12dp"
+            android:src="@drawable/ic_baseline_apps_24" />
+        <View
+            android:layout_width="6dp"
+            android:layout_margin="10sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="80dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:text="More App"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="discover our apps and enjoy"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+         </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        tools:ignore="RtlHardcoded">
+    </RelativeLayout>
+
+</RelativeLayout>

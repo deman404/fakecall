@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "721376877585",
+    "project_id": "relapolires---123-go-challenge",
+    "storage_bucket": "relapolires---123-go-challenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721376877585:android:3b2313fc01a53209b1e5b0",
+        "android_client_info": {
+          "package_name": "com.relapolires.ayaap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721376877585-91j7dt78p0kbljb33l9kie6rahp6klft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-dK138_TgY-zCwdItEDoVuQ_mJ07qlck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721376877585-91j7dt78p0kbljb33l9kie6rahp6klft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vungle:publisher-sdk-android:6.9.1@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/99f405df3973f959e527e907b3e760a7/transformed/jetified-publisher-sdk-android-6.9.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/99f405df3973f959e527e907b3e760a7/transformed/jetified-publisher-sdk-android-6.9.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/99f405df3973f959e527e907b3e760a7/transformed/jetified-publisher-sdk-android-6.9.1/jars/libs/r-classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/99f405df3973f959e527e907b3e760a7/transformed/jetified-publisher-sdk-android-6.9.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/99f405df3973f959e527e907b3e760a7/transformed/jetified-publisher-sdk-android-6.9.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vungle/publisher-sdk-android/6.9.1/cf8396bdf5897f12d9d0ed4a384b42986a2eaf85/publisher-sdk-android-6.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
